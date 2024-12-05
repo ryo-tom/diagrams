@@ -1,0 +1,17 @@
+# macOS system files
+.DS_Store
+
+# Optional: Exclude automatically generated image exports
+*.png
+*.jpeg
+*.jpg
+*.svg
+*.pdf
+
+# Keep only Draw.io files and their SVG exports
+!*.drawio
+!*.drawio.svg
+
+# Exclude large binary exports while keeping diagrams
+*.drawio.png
+*.drawio.pdf
